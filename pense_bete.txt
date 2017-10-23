@@ -1,0 +1,14 @@
+Configuring GitHub
+
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+
+Creating a local repository
+
+Create a folder in your system. This will serve as a local repository which will later be pushed onto the GitHub website. Use the following command:
+git init Mytest
+
+Adding repository files to an index
+
+git add README
+git add truc.txt
