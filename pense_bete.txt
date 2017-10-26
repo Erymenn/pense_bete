@@ -3,12 +3,16 @@ Configuring GitHub
 git config --global user.name "user_name"
 git config --global user.email "email_id"
 
-Creating a local repository
+create a new repository on the command line
 
-Create a folder in your system. This will serve as a local repository which will later be pushed onto the GitHub website. Use the following command:
-git init Mytest
+echo "# pense_bete" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Erymenn/pense_bete.git
+git push -u origin master
 
-Adding repository files to an index
+…or push an existing repository from the command line
 
-git add README
-git add truc.txt
+git remote add origin https://github.com/Erymenn/pense_bete.git
+git push -u origin master
